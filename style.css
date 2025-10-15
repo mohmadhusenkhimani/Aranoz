@@ -1,0 +1,826 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.myfirstsection{
+    height: 730px;
+    /* border: 1px solid black; */
+    background-color: aliceblue;
+}
+.partone{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.logoone{
+    height: inherit;
+    width: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    height: inherit;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    justify-content: space-evenly;
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: "poppins", sans-serif;
+}
+.logotwo{
+    height: inherit;
+    width: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    padding-right: 5%;
+}
+.parttwo{
+    height: 630px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    /* background-size: cover; */
+    /* justify-content: space-between; */
+}
+.one{
+    height: inherit;
+    width: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding-left: 5%;
+    gap: 50px;
+}
+.two{
+    height: inherit;
+    width: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.r1{
+    font-size: 65px;
+    width: 75%;
+    /* border: 1px solid black; */
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: "poppins", sans-serif;
+}
+.r2{
+    height: 80px;
+    width: 83%;
+    /* border: 1px solid black; */
+    line-height: 30px;
+}
+.r3{
+    height: 60px;
+    width: 185px;
+    /* border: 1px solid black; */
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+}
+
+
+/* ************************* Section Two ************************************** */
+.mysectiontwo{
+    height: 200px;
+    /* border: 1px solid black; */
+    font-size: 55px;
+    font-weight: bold;    
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* ************************* Section Three ************************************** */
+.mysectionthree{
+    height: 450px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.three{
+    height: 400px;
+    width: 46%;
+    /* border: 1px solid black; */
+    display: flex;
+    background-color: aliceblue;
+    padding-top: 30px;
+}
+.r5{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.522);
+}
+.r6{
+    font-size: 32px;
+    text-transform: capitalize;
+}
+.threeone{
+    height: inherit;
+    width: 43%;
+    /* border: 1px solid black; */
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.threetwo{
+    height: inherit;
+    width: 57%;
+    /* border: 1px solid black; */
+}
+.four{
+    height: 400px;
+    width: 36%;
+    /* border: 1px solid black; */
+    display: flex;
+    background-color: aliceblue;
+    padding-top: 30px;
+}
+.fourone{
+    height: inherit;
+    width: 53%;
+    /* border: 1px solid black; */
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.fourtwo{
+    height: 350px;
+    width: 47%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* ************************* Section Four ************************************** */
+.mysectionfour{
+    height: 450px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.five{
+    height: 400px;
+    width: 46%;
+    /* border: 1px solid black; */
+    background-color: aliceblue;
+}
+.six{
+    height: 400px;
+    width: 36%;
+    /* border: 1px solid black; */
+    background-color: aliceblue;
+}
+.sixone{
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+.sixtwo{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    padding-left: 40%;
+}
+.fiveone{
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+.fivetwo{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+
+/* ************************* Section Five ************************************** */
+.mysectionfive{
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    font-size: 45px;
+    font-family: "poppins", sans-serif;
+    text-transform: capitalize;
+    font-weight: bolder;
+    padding-left: 120px;
+    padding-top: 25px;
+}
+.op{
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.385);
+}
+
+
+
+/* ************************* Section Six ************************************** */
+.mysectionsix{
+    height: 800px;
+    /* border: 1px solid black; */
+}
+.partthree{
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.partfour{
+     height: 400px;
+     /* border: 1px solid black; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 50px;   
+}
+.seven{
+    height: 350px;
+    width: 17%;
+    /* border: 1px solid black; */
+}
+.sevenimg{
+    height: 270px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url('images/product_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sevencon{
+    height: 80px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 05px;
+}
+.r7{
+    font-size: 22px;
+    text-transform: capitalize;
+    font-family: "poppins", sans-serif;
+}
+.r8{
+    font-size: 20px;
+}
+.eight{
+    height: 350px;
+    width: 17%;
+    /* border: 1px solid black; */
+}
+.eightimg{
+    height: 270px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url('images/product_2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nine{
+    height: 350px;
+    width: 17%;
+    /* border: 1px solid black; */
+}
+.nineimg{
+    height: 270px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url('images/product_3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ten{
+    height: 350px;
+    width: 17%;
+    /* border: 1px solid black; */
+}
+.tenimg{
+    height: 270px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url('images/product_4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eleimg{
+    height: 270px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url('images/product_5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tweimg{
+    height: 270px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url('images/product_6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thrimg{
+    height: 270px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url('images/product_7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foimg{
+    height: 270px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url('images/product_8.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sevenimg{
+    height: 270px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url('images/product_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+/* ************************* Section Seven ************************************** */
+.mysectionseven{
+    height: 550px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.tableimg{
+    height: inherit;
+    width: 40%;
+    /* border: 1px solid black; */
+    padding-top: 5%;
+    padding-left: 3%;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.tablecon{
+    height: 350px;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 5%;
+}
+.r9{
+    height: 100px;
+    width: 70%;
+    /* border: 1px solid black; */
+    font-size: 45px;
+    font-family: "poppins",sans-serif;
+    font-weight: bold;
+}
+.r10{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    gap: 15px;
+}
+.r11{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.r12{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "poppins", sans-serif;
+}
+
+.timeone{
+    height: 70px;
+    width: 15%;
+    /* border: 1px solid black;           */
+}
+.timetwo{
+    height: 70px;
+    width: 15%;
+    /* border: 1px solid black;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timethree{
+    height: 70px;
+    width: 15%;
+    /* border: 1px solid black;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timefour{
+   height: 70px;
+    width: 15%;
+    /* border: 1px solid black;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.r13{
+    height: 80px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.email{
+    height: 55px;
+    width: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.423);
+    background-color: white;
+}
+.book{
+    height: 55px;
+    width:25%;
+    /* border: 1px solid black; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/* ************************* Section Eight ************************************** */
+
+.mysectioneight{
+    height: 150px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    font-weight: bolder;
+    padding-left: 120px;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ************************* Section Nine and Ten************************************** */
+
+.mysectionnine{
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+       justify-content: center;
+       gap: 50px;
+}
+.mysectionten{
+      height: 500px;
+      /* border: 1px solid black; */
+      background-image: url('images/subscribe_area.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content:center; 
+      align-items: center;
+      margin-top: 100px;
+      gap: 8%;
+}
+.r17{
+
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+
+}
+.r18{
+      width:55%;
+      font-size: 55px;
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* font-family: "Poppins", sans-serif; */
+      font-weight: bold;
+    }
+.r19{
+     width: 55%;
+     display: flex;
+     justify-content: center;
+     gap: 5%;
+
+}.rmail{
+     height: 60px;
+      width:50%;
+      /* border: 1px solid black; */
+      /* font-size: 20px; */
+      display: flex;
+      align-items: center;
+      padding-left: 35px;
+      color: rgba(0, 0, 0, 0.653);
+      background-color: white;
+      
+}
+.rsubscribe{
+       height: 60px;
+       width:30%;
+       /* border:1px solid black; */
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: red;
+       color: white;
+}
+
+
+.mysectioneleven{
+    height: 350px;
+    /* border:1px solid black; */
+    /* margin-top: 50px; */
+}
+.partsix{
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.bar{
+    height: 140px;
+    width:220px;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('client_logo_1.png');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+.ter{
+  height: 140px;
+  width:220px;
+  border:1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+}
+.fourteen{
+  height: 140px;
+  width:220px;
+  border:1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+}
+.fifteen{
+  height: 140px;
+  width:220px;
+  border:1px solid black;
+  /* border:1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+}
+.sixteen{
+  height: 140px;
+  width:220px;
+  border:1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;      
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+}
+.partseven{
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  /* align-items: flex-end; */
+  justify-content: center;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  /* border-top-width: 40%; */
+}
+.footer{
+    height:380px;
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    background-color: aliceblue;
+}
+.fpartone{
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.fone{
+    height: inherit;
+    width: 15%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fimg{
+   height: 50px;
+   /* border: 1px solid black; */
+   font-size: 24px;
+   text-transform: capitalize;
+   display: flex;
+   align-items: center;
+}
+.fcon{
+  display: flex;
+   flex-direction: column;
+   gap: 10px;
+   text-transform: capitalize;
+   font-size: 20px;
+}
+.ftwo{
+  height: inherit;
+  width: 15%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.fthree{
+  height: inherit;
+  width: 15%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ffour{
+  height: inherit;
+  width: 15%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ffive{
+    height: inherit;
+    width: 25%;
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+.heven{
+  line-height: 35px;
+  text-transform: capitalize;
+  font-size: 20px
+}
+.add{
+   height: 50px;
+   /* border: 1px solid black; */
+   display: flex;
+    margin-top: 25px;
+}
+.Eadd{
+   height: inherit;
+   width: 65%;
+   /* border:1px solid black; */
+   font-size: 20px;
+   padding-left: 10px;
+   display: flex;
+   align-items: center;
+   background-color: white;
+  }
+.sadd{
+ height: inherit;
+ width: 35%;
+ /* border: 1px solid black;  */
+ font-size: 20px;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: palevioletred;
+  color: white;
+}
+.fpartwo{
+  height: 80px;
+  /* border: 1px soli black; */
+   display: flex;
+}
+.fpthree{
+width: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 22px;
+/* background-color: white; */
+}
+.fpfour{
+width: 30%;
+display: flex;
+align-items: center;
+gap: 20px;
+}
